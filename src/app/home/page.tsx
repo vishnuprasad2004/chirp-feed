@@ -7,8 +7,8 @@ import Feed from '@/components/Feed'
 
 export default function Home() {
   return (
-    <div className='ml'>
-      
+    <div className='flex flex-row'>
+      <NavBar/>
       <Feed></Feed>
     </div>
   )

@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={roboto.className}>
         <div className='container h-screen w-screen overflow-hidden flex flex-row'>
-          <NavBar></NavBar>
+          {/* <NavBar></NavBar> */}
           {children}
         </div>
       </body>

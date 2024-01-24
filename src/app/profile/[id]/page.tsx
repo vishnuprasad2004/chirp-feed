@@ -1,9 +1,14 @@
 "use client";
 
+import NavBar from "@/components/Navbar";
+
 
 const ProfilePage = ({params}:any) => {
     return(
-        <div>{params.id}</div>
+        <>
+            <NavBar/>
+            <div>{params.id}</div>
+        </>
     )
 }
 
